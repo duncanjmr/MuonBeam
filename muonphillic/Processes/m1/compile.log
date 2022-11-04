@@ -1,0 +1,3 @@
+make: Entering directory '/home/duncan/UChicago/MuonBeam/muonphillic/Processes/m1'
+gcc -g -fsigned-char -std=gnu99 -fPIC  -shared -o VandP.so  VandP.c /home/duncan/UChicago/MuonBeam/calchep_3.8.10/include/VandPgate.c   /home/duncan/UChicago/MuonBeam/calchep_3.8.10/lib/dynamic_me.a  /home/duncan/UChicago/MuonBeam/calchep_3.8.10/lib/libSLHAplus.a /home/duncan/UChicago/MuonBeam/calchep_3.8.10/lib/ntools.a /home/duncan/UChicago/MuonBeam/calchep_3.8.10/lib/serv.a /home/duncan/UChicago/MuonBeam/calchep_3.8.10/lib/dummy.a  -lm  -lpthread
+make: Leaving directory '/home/duncan/UChicago/MuonBeam/muonphillic/Processes/m1'

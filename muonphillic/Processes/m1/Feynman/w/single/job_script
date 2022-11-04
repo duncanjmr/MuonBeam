@@ -1,0 +1,11 @@
+#!/bin/bash
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:
+cd /home/duncan/UChicago/MuonBeam/muonphillic/Processes/m1/Feynman/w/single/
+nice -n 19 ./n_calchep -blind "[[[{[[{{}0"  2>&1 1>  job.o
+err=$?
+if(test $err -eq 123) then
+	echo Done.
+elif(test $err -ne 0) then
+	echo CH Error $err
+fi
+touch finished-events

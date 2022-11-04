@@ -1,0 +1,145 @@
+
+<calchep-batch>
+<![CDATA[
+#########################################
+#            Model Info                 #
+#########################################
+Model:     muonphillic
+#http://feynrules.phys.ucl.ac.be
+Gauge:     Feynman
+
+
+#########################################
+#            Processes                  #
+#########################################
+Process   :    mu-,N0->mu-,N0,S0
+
+#########################################
+#            PDF's                      #
+#########################################
+pdf1 :       None
+pdf2 :       None
+
+
+#########################################
+#            Momenta                    #
+#########################################
+p1 :         5
+p2 :         0.0
+
+
+#########################################
+#            Polarization               #
+#########################################
+pol1 :         0
+pol2 :         0
+
+
+#########################################
+#            Parameters                 #
+#########################################
+Parameter:   aEWM1=127.9
+Parameter:   Gf=0.0000116637
+Parameter:   aS=0.1184
+Parameter:   ymdo=0.00504
+Parameter:   ymup=0.00255
+Parameter:   yms=0.101
+Parameter:   ymc=1.27
+Parameter:   ymb=4.7
+Parameter:   ymt=172
+Parameter:   yme=0.000511
+Parameter:   ymm=0.10566
+Parameter:   ymtau=1.777
+Parameter:   cabi=0.227736
+Parameter:   gSll=3.87E-4
+Parameter:   ZNuc=1
+Parameter:   GG=1.21977796370
+Parameter:   MZ=91.1876
+Parameter:   Me=0.000511
+Parameter:   MMU=0.10566
+Parameter:   MTA=1.777
+Parameter:   MU=0.00255
+Parameter:   MC=1.27
+Parameter:   MT=172
+Parameter:   MD=0.00504
+Parameter:   MS=0.101
+Parameter:   MB=4.7
+Parameter:   MH=125
+Parameter:   MScalar=0.1
+Parameter:   MNuc=55
+Parameter:   E=2.71828182845
+Parameter:   Pi=3.14159265358
+
+#########################################
+#            QCD running info           #
+#########################################
+parton dist. alpha : 1
+alpha(MZ)          : 0.1172
+alpha nf           : 5
+alpha order        : 2
+mb(mb)             : 4.2
+Mtop(pole)         : 175
+
+#########################################
+#            Breit-Wigner               #
+#########################################
+Breit Wigner range : 2.7
+T-channel widths   : OFF
+GI in T-channel    : OFF
+GI in S-channel    : OFF
+
+#########################################
+#            Cuts                       #
+#########################################
+
+#########################################
+#            Kinematics                 #
+#########################################
+Kinematics :0: 12->34,5
+Kinematics :0: 34->3,4
+
+#########################################
+#            Regularization             #
+#########################################
+
+#########################################
+#            Distributions              #
+#########################################
+
+#########################################
+#            Events Generation          #
+#########################################
+Number of events (per run step): 20000
+Max lumi [1/fb]                : 1000000000
+Filename                       : scalar_bremmstrahlung-single
+Cleanup                        : False
+
+#########################################
+#            Parallelization info       #
+#########################################
+Parallelization method : local
+Que                    : 
+Walltime               : 0
+Memory                 : 0
+email                  : 
+Max number of cpus     : 6
+sleep time             : 3
+nice level             : 19
+
+#########################################
+#            Vegas                      #
+#########################################
+nSess_1  : 5
+nCalls_1 : 100000
+nSess_2  : 5
+nCalls_2 : 100000
+
+#########################################
+#           Event Generator             #
+#########################################
+sub-cubes      : 10000
+MAX*N          : 2.000000
+find new MAX   : 50
+
+]]>
+</calchep-batch>

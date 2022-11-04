@@ -1,0 +1,69 @@
+
+#Initial_state  inP1=2.250000E+01  inP2=1.000000E-01
+ Polarizations= { 0.000000E+00  0.000000E+00 }
+  StrFun1="OFF"
+  StrFun2="OFF"
+
+#Physical_Parameters 
+     aEWM1 = 1.279000000000000E+02
+        Gf = 1.166370000000000E-05
+        aS = 1.184000000000000E-01
+      ymdo = 5.040000000000000E-03
+      ymup = 2.550000000000000E-03
+       yms = 1.010000000000000E-01
+       ymc = 1.270000000000000E+00
+       ymb = 4.700000000000000E+00
+       ymt = 1.720000000000000E+02
+       yme = 5.110000000000000E-04
+       ymm = 1.056600000000000E-01
+     ymtau = 1.777000000000000E+00
+      cabi = 2.277360000000000E-01
+      gSll = 1.000000000000000E-05
+      ZNuc = 1.000000000000000E+00
+        MZ = 9.118760000000000E+01
+        Me = 5.110000000000000E-04
+       MMU = 1.056600000000000E-01
+       MTA = 1.777000000000000E+00
+        MU = 2.550000000000000E-03
+        MC = 1.270000000000000E+00
+        MT = 1.720000000000000E+02
+        MD = 5.040000000000000E-03
+        MS = 1.010000000000000E-01
+        MB = 4.700000000000000E+00
+        MH = 1.250000000000000E+02
+   MScalar = 1.000000000000000E-02
+      MNuc = 1.840000000000000E+02
+         E = 2.718282000000000E+00
+        Pi = 3.141593000000000E+00
+----
+
+#Breit-Wigner BW range    2.700000
+t-channel widths 0
+GI trick in s-  0
+GI trick in t-  0
+useSLHAwidth    1
+
+#VVdecays  1
+
+#SLHAwidth  1
+#alphaQCD alphaPDF=1 alpha(MZ)=1.184000E-01 NF=5 Order=2 MbMb=4.200000E+00 Mtp=1.730000E+02
+#QCDscales 
+ Renormalization M12
+ Factorization1 Qren
+ Factorization2 Qpdf1
+ Showering Qren
+
+#Composites 
+*** Table ***
+ Composites  
+  Name  |> Comma separated list of particles                           <|
+p*      |g,d,d~,u,u~,s,s~,c,c~,b,b~
+=========================================================================
+
+#Cuts 
+*** Table ***
+ Cuts  
+!|  Parameter  |> Min bound <|> Max bound <|
+============================================
+
+#END

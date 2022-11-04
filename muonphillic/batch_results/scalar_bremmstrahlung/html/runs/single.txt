@@ -1,0 +1,15 @@
+	CalcHEP Numerical Details
+
+	Done!
+
+Processes                sigma (fb)     unc (%)   PID       Time (hr)      N events
+mu-,N0->mu-,S0,N0        4.6877e+01     1.04e-01  49631     0.00           20706/20705
+Total                    4.6877e+01     1.04e-01  
+
+Decays                   width (GeV)    unc (%)   PID       Time (hr)      N events
+
+Widths                                            PID       Time (hr)
+Widths                                            49635     0.00           
+
+Total                    4.6877e+01                         0.00           20000/20000
+

@@ -1,0 +1,43 @@
+Model:         muonphillic
+Model changed: False
+#Gauge:         Feynman
+Process:       mu-,N0->mu-,N0,S0
+
+pdf1:      None
+pdf2:      None
+#Bunch x+y sizes (nm)	  : 560
+#Bunch length (mm)	  : 0.4
+#Number of particles	  : 2E+10
+
+p1:        5
+p2:        0.0
+
+Parameter: ZNuc=1
+Parameter: MNuc=55
+Parameter: MScalar=0.1
+Parameter: gSll=3.87E-4
+
+Kinematics : 12 -> 34, 5
+Kinematics : 34 -> 3, 4
+
+Parallelization method:      local
+Max number of nodes:   6
+Max number of processes per node: 1
+
+sleep time:                  3
+nice level :                 19
+
+#Dist parameter:    E1
+#Dist min:	   30
+#Dist max:	   499
+#Dist n bins:	   100
+#Dist title:	   e,E->Z,h
+#Dist x-title:	   E1 (GeV)
+
+Number of events (per run step): 20000
+Filename:                        scalar_bremmstrahlung
+
+nSess_1:   5
+nCalls_1:  100000
+nSess_2:   5
+nCalls_2:  100000
